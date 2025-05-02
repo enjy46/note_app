@@ -17,38 +17,39 @@ Clone this repository to your local machine by running:
 
 ```bash
 git clone https://github.com/yourusername/note_app.git
+````
 
-2. Set Up the Database
+### 2. Set Up the Database
+
 To set up the database for the app:
 
-Open phpMyAdmin
-Go to: http://localhost/phpmyadmin
+1. **Open phpMyAdmin**:
 
-Create a new database
+   * Go to: [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
 
-Click "New" in the sidebar.
+2. **Create a new database**:
 
-Name the database note_app and click Create.
+   * Click "New" in the sidebar.
+   * Name the database `note_app` and click **Create**.
 
-Import the SQL file
+3. **Import the SQL file**:
 
-Click on the Import tab.
+   * Click on the **Import** tab.
+   * Choose the `note_app.sql` file (provided in the repository).
+   * Click **Go** to create the tables and set up the database.
 
-Choose the note_app.sql file (provided in the repository).
+### 3. Set Up the Project
 
-Click "Go" to create the tables and set up the database.
-
-3. Set Up the Project
-Place the note_app folder inside your XAMPP htdocs (or equivalent) directory.
+Place the `note_app` folder inside your XAMPP `htdocs` (or equivalent) directory.
 
 Open your browser and go to:
-http://localhost/note_app/register.php to register a new user and start using the app.
 
-Technologies Used
-PHP for server-side scripting
+* [http://localhost/note\_app/register.php](http://localhost/note_app/register.php) to register a new user and start using the app.
 
-MySQL for database management
+## Technologies Used
 
-HTML & CSS for the front-end design
+* **PHP** for server-side scripting
+* **MySQL** for database management
+* **HTML & CSS** for the front-end design
+* **XAMPP** (or any LAMP/WAMP stack) for local development environment
 
-XAMPP (or any LAMP/WAMP stack) for local development environment
