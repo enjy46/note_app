@@ -16,7 +16,7 @@ A simple **Note-Taking** application built with **PHP** and **MySQL**. This app 
 Clone this repository to your local machine by running:
 
 ```bash
-git clone https://github.com/yourusername/note_app.git
+git clone https://github.com/enjy46/note_app.git
 ````
 
 ### 2. Set Up the Database
